@@ -1,0 +1,18 @@
+package com.work.view;
+
+public class LoopTest {
+
+	public static void main(String[] args) {
+		// for 구문을 이용해서 1 ~ 10 까지 출력하면서 누적된 결과를 출력해보세요.
+		//짝수만 누적해서 출력
+		
+		int total = 0;
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(i/2);
+			total += i; // total = total + i;
+		}
+		System.out.println("total : " + total);
+
+	}
+
+}

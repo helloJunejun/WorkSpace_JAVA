@@ -1,0 +1,17 @@
+package com.work.view;
+
+public class Test {
+	public static void main1(String[] args) {
+		// 여러분의 이름 정보를 변수에 설정해서 저장
+		String name; // = "유준성";
+		name = "유준성";
+		// 여러분의 나이
+		int age = 30;
+		
+		// 나의 정보를 콘솔창에 출력
+		System.out.println(name);
+		System.out.println(age);
+
+	}
+	}
+

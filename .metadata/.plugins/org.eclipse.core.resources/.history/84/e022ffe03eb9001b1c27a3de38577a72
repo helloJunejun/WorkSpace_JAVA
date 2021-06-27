@@ -1,0 +1,69 @@
+package com.work.view;
+
+public class GuGuDanTest {
+	
+	public static void main(String[] args) {
+		System.out.println("\n3. do~while 구문을 활용한 구구단");
+		
+		
+		
+	}
+	
+	
+		public static void main3(String[] args) {
+		System.out.println("\n2. while 구문을 활용한 구구단");
+		
+		int i = 2;
+		while(i <= 9) {
+			System.out.print(i + "단\t");
+			i++;
+		}
+		System.out.print("\n");
+		
+		
+		int times = 1;		
+		while(times<=9) {
+			int dan = 2;
+			while(dan<=9) {
+			System.out.print(dan+ "*" + times + "=" + dan * times+"\t");
+			dan++;
+		}
+			
+			System.out.print("\n");
+			times++;
+	}	
+}
+	
+	public static void main2(String[] args) {
+		System.out.println("\n1. for 구문을 활용한 구구단");
+		
+		int dan;
+		int times;
+		for(dan = 2; times <= 9; times++) {
+			System.out.print(dan + "단\t");
+		}
+		System.out.print("\n");
+		
+		for(times = 1; times <= 9; times++) {
+			for(dan = 2; dan <= 9; dan++) {
+				
+				System.out.print(dan+ "*" + times + "=" + dan * times+"\t");
+			
+			}		
+			System.out.println();
+	}
+				
+}
+		
+}
+	
+/*
+ 
+for(i = 2; i <= 9; i++) {
+	for(j = 1; j <= 9; j++) {
+	System.out.print(i + "단\t");
+		System.out.println(i + "*" + j + " = " + i * j+"\t");		
+}
+
+}
+System.out.println();*/

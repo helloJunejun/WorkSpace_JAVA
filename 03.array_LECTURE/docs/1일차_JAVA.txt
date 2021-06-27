@@ -1,0 +1,94 @@
+## ----------------------------------
+##	JAVA 1일차 수업
+## ----------------------------------
+
+## 자바 개발환경 
+
+## 1. jdk
+-- download : 
+	https://www.oracle.com/index.html
+	https://www.oracle.com/downloads/
+
+-- version : jdk-8u202
+
+-- api documentation :
+	>> on-line : 
+	>> off-line : 권장(jdk 함께 동일 버전 다운로드)
+
+-- 설치폴더 : 
+	>> 기본폴더 : C:\Program Files\Java\jdk1.8.0_202
+
+-- 환경설정
+1. JAVA_HOME 신규추가
+	JAVA_HOME=C:\Program Files\Java\jdk1.8.0_202
+2. PATH 변경
+	%JAVA_HOME%\BIN;기존패스
+
+## 2. eclipse
+-- 통합개발환경(IDE)
+-- 오픈소스
+-- JavaSE / JavaEE : Web(Servlet & JSP/Spring boot)
+-- exe install, zip 압축해제(권장)
+
+-- 설치폴더 : 압축해제
+	>> c:\00.practice\eclipse>
+
+-- 실행
+	>> c:\00.practice\eclipse> eclipse.exe
+
+-- 작업폴더
+	>> c:\00.practice\workspace_java>
+
+
+## 3. notepad++
+-- https://notepad-plus-plus.org/downloads/
+
+
+## 명령프롬프트
+-- window > cmd
+
+## java 설치 버전 확인 방법
+dos> javac -version
+dos> java -version
+
+
+## 폴더 
+-- c:\00.practice
+	>> 수업진행
+	>> apps_down
+		>> C:\00.practice\apps_down\jdk> ....
+	>> workspace
+
+
+## 한글 인코딩 설정
+-- euc-kr / ksc5601 : 한글, 영문
+-- utf-8 : 
+	>> 한글, 영문 (다국어지원), html5, ajax(비동기통신)
+	>> 권장
+
+## eclipse 환경설정
+-- 단위 : workspace(권장), project, file
+-- 한글 인코딩
+	>> encoding
+	>> spelling
+
+-- java version
+
+-- font
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

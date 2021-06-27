@@ -1,0 +1,18 @@
+package com.work.view;
+
+public class ifTest {
+
+	public static void main(String[] args) {
+		// 성적을 변수에 저장
+		int score = 95;
+		
+		// 성적이 70점 이상이면 합격출력
+		if(score>70) {
+			System.out.println("합격");
+		} else {
+			System.out.println("불합격");
+		}
+		
+	}
+
+}

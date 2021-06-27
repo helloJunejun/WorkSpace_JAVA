@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SpecialMember.java&apos; to &apos;06-2.mms_oop_inheritance/src/com.work.model.dto&apos;&#x0D;&#x0A;- Original project: &apos;06-2.mms_oop_inheritance&apos;&#x0D;&#x0A;- Destination element: &apos;06-2.mms_oop_inheritance/src/com.work.model.dto&apos;&#x0D;&#x0A;- Original element: &apos;com.work.model.dto.SpecialMember.java&apos;" description="Copy compilation unit" destination="/src&lt;com.work.model.dto" element1="/src&lt;com.work.model.dto{SpecialMember.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1622014690078" units="1" version="1.0"/>
+</session>

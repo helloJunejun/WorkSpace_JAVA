@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.work.exception&apos; to &apos;12.mms_exception/src&apos;&#x0D;&#x0A;- Original project: &apos;11-2.exception&apos;&#x0D;&#x0A;- Destination element: &apos;12.mms_exception/src&apos;&#x0D;&#x0A;- Original element: &apos;11-2.exception/src/com.work.exception&apos;" description="Copy package" destination="=12.mms_exception/src" element1="/src&lt;com.work.exception" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1622684602602" version="1.0"/>
+</session>

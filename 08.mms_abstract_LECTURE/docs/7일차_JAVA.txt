@@ -1,0 +1,164 @@
+Domain
+Class
+변수, 메서드(형식:선언문, 규칙 => 재정의규칙)
+데이터타입 : 기본형, 객체형(참조형)
+
+-- 속성변경 메서드 : setter()
+-- 속성조회 메서드 : getter()
+
+일반화(Generalization)
+-- 객체들의 공통사항 일반화(부모클래스) 설계
+-- 일반화 : 표준(메서드형식, 속성목록), 
+-- 상속(inheritance) : 
+	>> 표준화(일관성)
+	>> 유지보수 편리
+	>> 확장성
+	>> 재사용성...>> 개발속도향상,안정성
+	>> 부모꺼(super) => 자식꺼(sub)
+	>> 자식일찌라도 부모의 private 멤버는 접근불가
+	>> 객체생성(new 절차, 생성자)
+	>> 부모생성자 수행 => 자식생성자 수행
+	>> 계층적 구조
+	>> 모든클래스의 조상클래스(root class) : java.lang.Object
+	>> 단일상속 허용
+	>> Object는 자동 상속받음=> toString(), equals(Object)
+	
+-- 라이브러리 >> 프레임워크 >> 패턴 >> 아키텍처	
+
+-- 은닉성(encapsulation)
+	>> information(속성, 기능) hiding
+	
+-- access modifier
+	>> public, private(same class)
+	
+-- this 키워드
+-- super 키워드	
+
+-- java.lang.Object 
+-- toString() : String
+-- equals(Object) : boolean
+	>> String 문자열 비교
+	
+	
+## java.lang.Object 
+-- 모든 클래스의 자동으로 상속된 root class
+-- 주로 재정의(overriding) 메서드
+	1. toString() : String
+	2. equals(Object):boolean / hashCode():int
+	
+## 같은값 비교
+-- 값1 == 값2
+-- 5 == 10
+-- 10 == 10
+
+## 같은객체 비교	
+-- 객체1.equals(객체2)
+
+-- 예시:
+	Member dto1 = new Member("user01", ....);
+	Member dto2 = new Member("user02", ....);
+	
+	Member dto3 = dto1;
+
+
+	if(dt1과 dto2는 같은객체??)
+	
+	if(dto1.equals(dto2)) {
+		// 같은객체
+	} else {
+		// 다른객체  ....??
+	}
+	
+	// 코드1
+	if(dto1.equals(dto3)) {
+		// 같은객체	....??
+	} else {
+		// 다른객체  
+	}	
+	
+	// 코드2 
+	if(dto1 == dto3) {
+	
+	}else {
+	
+	}
+	
+	
+## ----------------------------------
+## Modifier (제한자, 제어자)
+## ----------------------------------
+		
+2. Usage Modifier (사용 제한자)
+	(1) static : 객체생성하지않고 멤버사용, 공유
+	(2) final : 끝
+	(3) abstract : 미완성
+
+## static
+-- 메모리 영역
+	>> Class Area / Method Area / (static area)
+	>> 프로그램시작시 자동 로딩 ~ 프로그램 종료시 메모리 상주
+
+-- 사용방법 :
+	>> 클래스명.class변수명
+	>> 클래스명.class메서드명(params)
+	>> 예시 : System.out.println("hello");
+	
+-- 객체생성하지않고 사용가능한 멤버
+-- static 종류 :
+	1. 멤버변수 : Class 변수(static 멤버변수)
+		>> 객체 생성없이 사용가능
+		>> 모든 객체들이 공유가능한 공유변수
+		
+	2. 메서드 : Class 메서드(static 메서드)
+	
+	3. static 블럭 초기화
+	
+	4. static inner class : 클래스 내부에 선언한 클래스 (중첩클래스, inner class)
+
+-- 같은 클래스
+	>> 인스턴스 멤버 : 그냥 호출사용
+		public String memberId;
+		public void setMemberId(String memberId) {
+			this.memberId = memberId;
+		}
+		
+	>> class 멤버메서드(static 멤버메서드) : 
+		=> static 멤버는 그냥 호출 사용가능
+		=> instance 멤버는 같은 클래스에 존재해도 반드시 객체 생성후 참조변수명.instance멤버명 사용
+	
+
+-- 다른 클래스
+	>> 객체 생성후에 참조변수명.인스턴스멤버변수명, 참조변수명.인스턴스메서드명();
+		Member dto = new Member();
+		dto.setMemberId("aaa");
+	>> class 멤버는 클래스명.class멤버명 사용
+
+
+## final
+-- 끝
+-- 멤버변수 : 값변경불가
+-- 매개변수 : 전달값 변경 불가 => 비밀번호변경(아이디, 기존암호, final 변경암호)
+-- 메서드 :  재정의 불가 (부분)
+-- 클래스 : 상속불가 (전체)
+-- 상수 선언 : public static final 타입 변수명 = 상수값;
+
+
+## abstract
+
+## interface
+
+
+## 소스파일 구조
+1. packate 선언문
+-- 0, 1
+
+2. import 선언문
+-- 0 ~ N
+
+3. class 선언문
+-- 1 ~ N
+-- 하나의 소스코드 파일안에 여러개의 class를 선언 가능 : 권장하지않음, 가끔 테스트 사용가능
+-- 여러개의 클래스를 선언하는 경우
+	>> public 클래스는 딱 1개만 존재가능 : 소스코드파일명은 반드시 public클래스명.java
+	>> public 클래스 권한을 갖는 class 존재하지 않으면 : 소스코드파일명 제한이 없음(마음데로), main이되는클래스명.java
+

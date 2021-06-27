@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="260"/>
+		<item key="DIALOG_Y_ORIGIN" value="252"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\00.practice\workspace_java\12-2.io_LECTURE.zip"/>
+			<item value="C:\00.practice\workspace_java\12.mms_exception_LECTURE.zip"/>
+			<item value="C:\00.practice\workspace_java\06-2.mms_oop_inheritance_LECTURE.zip"/>
+			<item value="C:\00.practice\workspace_java\05.constructor_this_LECTURE.zip"/>
+			<item value="C:\00.practice\workspace_java\04.class_LECTURE.zip"/>
+			<item value="C:\00.practice\workspace_java\mission3.zip"/>
+			<item value="C:\00.practice\workspace_java\03.array_LECTURE.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.work.model.dto&apos; to &apos;10.collection/src&apos;&#x0D;&#x0A;- Original project: &apos;09-2.mms_api&apos;&#x0D;&#x0A;- Destination element: &apos;10.collection/src&apos;&#x0D;&#x0A;- Original element: &apos;09-2.mms_api/src/com.work.model.dto&apos;" description="Copy package" destination="=10.collection/src" element1="/src&lt;com.work.model.dto" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1622509740027" version="1.0"/>
+</session>

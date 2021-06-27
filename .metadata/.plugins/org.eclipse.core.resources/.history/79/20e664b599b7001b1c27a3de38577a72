@@ -1,0 +1,47 @@
+package com.work.view;
+
+public class ifTest {
+	
+	/* 실습
+	 * 성적에 따라 등급을 출력하는 프로그램을 완성하세요
+	 * 성적은 0 ~ 100점 이내
+	 * A : 90 ~ 100점
+	 * B : 80 ~ 89점
+	 * C : 70 ~ 79점
+	 * D : 60 ~ 69점
+	 * F : 0 ~ 59점
+	 * 
+	 * 출력형식
+	 * 00점 0등급
+	 */
+	public static void main(String[] args) {
+		
+		int score = 50;
+		
+		if (90 >= score) {
+			System.out.println(score + "점 " + "A" + "등급");
+		} else if (80 >= score) {
+			System.out.println(score + "점 " + "B" + "등급");
+		} else if (70 >= score) {
+			System.out.println(score + "점 " + "C" + "등급");
+		} else if (60 >= score) {
+			System.out.println(score + "점 " + "D" + "등급");
+		} else {
+			System.out.println(score + "점 " + "F" + "등급");
+		}
+	}
+
+	public static void main1(String[] args) {
+		// 성적을 변수에 저장
+		int score = 70;
+		
+		// 성적이 70점 이상이면 합격출력
+		if (score>=70) {
+			System.out.println(score + " 합격");
+		} else {
+			System.out.println(score + " 불합격");
+		}
+		
+	}
+
+}

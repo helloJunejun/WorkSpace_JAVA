@@ -1,0 +1,137 @@
+package com.work.view;
+
+public class GuGuDanTest {
+	
+	public static void main(String[] args) {
+		System.out.println("\n5. 반복문을 활용한 홀수스테브이 구구단 출력");
+		
+		int dan;
+		int times;
+		int name;
+		for(name = 2; name <= 9; name++) {
+			System.out.print(name + "단\t");
+		}
+			System.out.print("\n");
+		
+		for(times = 1; times <= 9; times++) {
+			for(dan = 2; dan <= 9; dan++) {
+				if(times%2 == 1)				
+				System.out.print(dan+ "*" + times + "=" + dan * times+"\t");
+			
+			}
+			System.out.print("\n");
+		}
+		
+	}
+	
+	public static void main5(String[] args) {
+		System.out.println("\n4. 반복문을 활용한 짝수 구구단 출력");
+		
+		int dan;
+		int times;
+		int name;
+		for(name = 2; name <= 9; name++) {
+			if(name%2 == 0)
+			System.out.print(name + "단\t");
+		}
+		System.out.print("\n");
+		
+		for(times = 1; times <= 9; times++) {
+			for(dan = 2; dan <= 9; dan++) {
+				if(dan%2 == 0)
+				
+				System.out.print(dan+ "*" + times + "=" + dan * times+"\t");
+			
+			}		
+			System.out.println();
+	}
+		
+	}
+	
+	public static void main4(String[] args) {
+		System.out.println("\n3. do~while 구문을 활용한 구구단");
+		
+		int name = 2;
+		do {
+			System.out.print(name + "단\t");
+			name++;
+			
+		}while(name<=9);
+		System.out.print("\n");
+		
+		int times = 1;
+		do {
+			int dan = 2;
+			do {
+			System.out.print(dan+ "*" + times + "=" + dan * times+"\t");
+			dan++;
+			} while(dan<=9);
+			System.out.print("\n");
+			times++;
+			
+		} while(times <= 9);
+			
+				
+	}
+		
+		
+		
+	
+		public static void main3(String[] args) {
+		System.out.println("\n2. while 구문을 활용한 구구단");
+		
+		int name = 2;
+		while(name <= 9) {
+			System.out.print(name + "단\t");
+			name++;
+		}
+		System.out.print("\n");
+		
+		
+		int times = 1;		
+		while(times<=9) {
+			int dan = 2;
+			while(dan<=9) {
+			System.out.print(dan+ "*" + times + "=" + dan * times+"\t");
+			dan++;
+		}
+			
+			System.out.print("\n");
+			times++;
+	}	
+}
+	
+	public static void main2(String[] args) {
+		System.out.println("\n1. for 구문을 활용한 구구단");
+		
+		int dan;
+		int times;
+		int name;
+		for(name = 2; name <= 9; name++) {
+			System.out.print(name + "단\t");
+		}
+		System.out.print("\n");
+		
+		for(times = 1; times <= 9; times++) {
+			for(dan = 2; dan <= 9; dan++) {
+				
+				System.out.print(dan+ "*" + times + "=" + dan * times+"\t");
+			
+			}		
+			System.out.println();
+	}
+				
+}
+		
+}
+	
+/*
+ 
+for(i = 2; i <= 9; i++) {
+	for(j = 1; j <= 9; j++) {
+	System.out.print(i + "단\t");
+		System.out.println(i + "*" + j + " = " + i * j+"\t");		
+}
+
+}
+System.out.println();*/
